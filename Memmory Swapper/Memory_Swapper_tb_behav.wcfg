@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Traffic_light_Controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Traffic_light_Controller_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="339135688fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="80"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/Traffic_light_Controller_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Sa" type="logic">
+      <obj_property name="ElementShortName">Sa</obj_property>
+      <obj_property name="ObjectShortName">Sa</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Sb" type="logic">
+      <obj_property name="ElementShortName">Sb</obj_property>
+      <obj_property name="ObjectShortName">Sb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Ra" type="logic">
+      <obj_property name="ElementShortName">Ra</obj_property>
+      <obj_property name="ObjectShortName">Ra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Ya" type="logic">
+      <obj_property name="ElementShortName">Ya</obj_property>
+      <obj_property name="ObjectShortName">Ya</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Ga" type="logic">
+      <obj_property name="ElementShortName">Ga</obj_property>
+      <obj_property name="ObjectShortName">Ga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Rb" type="logic">
+      <obj_property name="ElementShortName">Rb</obj_property>
+      <obj_property name="ObjectShortName">Rb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Yb" type="logic">
+      <obj_property name="ElementShortName">Yb</obj_property>
+      <obj_property name="ObjectShortName">Yb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/Gb" type="logic">
+      <obj_property name="ElementShortName">Gb</obj_property>
+      <obj_property name="ObjectShortName">Gb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/light_A" type="array">
+      <obj_property name="ElementShortName">light_A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">light_A[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/light_B" type="array">
+      <obj_property name="ElementShortName">light_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">light_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3239">
+      <obj_property name="label">RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/CTRL0/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_light_Controller_tb/CTRL0/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+</wave_config>
